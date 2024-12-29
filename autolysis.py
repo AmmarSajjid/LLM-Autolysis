@@ -69,7 +69,7 @@ try:
     except UnicodeDecodeError:
         df = pd.read_csv(file_name, encoding="latin-1")
 
-    api_key = os.environ.get("AIPROXY_TOKEN")
+    api_key = os.environ.get("AI_TOKEN")
     if not api_key:
         raise ValueError("ERROR: API key not found in environment variables")
 
