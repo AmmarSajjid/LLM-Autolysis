@@ -28,7 +28,7 @@ source venv/bin/activate
 pip install uvicorn
 
 #### Set Up OpenAI API Key
-export OPENAI_API_KEY='your_openai_api_key_here'
+export AI_TOKEN='your_openai_api_key_here'
 
 ## Usage
 
